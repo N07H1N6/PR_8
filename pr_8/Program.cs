@@ -37,7 +37,7 @@ namespace PR_8
                 while (true)
                 {
                     if (N >= 10000) throw new ArgumentException("Это не четырехзначное число!");
-
+                    if (N < 1000) throw new ArgumentException("Это не четырехзначное число!");
                     else
                     {
                         if (v1 == 0)
